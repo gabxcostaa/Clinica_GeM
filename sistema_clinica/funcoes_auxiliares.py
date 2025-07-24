@@ -366,7 +366,7 @@ buscamos unir tecnologia, conforto e profissionais qualificados.
     limpa_tela()
 
 def limpa_tela():
-    os.system('cls')
+     os.system('cls' if os.name == 'nt' else 'clear')
 
 def voltar(frase):
     input(f"\n↩️  Pressione Enter para {frase}.\n")
