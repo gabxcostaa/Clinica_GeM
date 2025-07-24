@@ -1,0 +1,24 @@
+dados = {"nome" : "gabriel","cpf":"12345678901"}
+
+dados[dado]
+
+dados_pacientes = [paciente(dados["cpf"]),paciente,paciente]
+
+
+
+  crm_buscado = input("Digite o CRM : ").strip()
+        crm_encontrado = next((crm_buscado for paciente in dados_pacientes if crm_buscado == paciente.crm),None)
+
+
+
+15/07/2025 18:00   
+
+15/07/2025 18:00 
+
+
+
+
+ if not dados_consulta:
+        print("Não há dados de paciente e médico ainda.")
+        voltar("voltar a Gerenciar Consulta")
+        limpa_tela()

@@ -1,0 +1,62 @@
+{
+    "pacientes": [
+        {
+            "nome": "Davi Gabriel Costa Barros",
+            "cpf": "12345678901",
+            "telefone": "82993274072"
+        },
+        {
+            "nome": "Davi Marciano Costa Barros",
+            "cpf": "12345678903",
+            "telefone": "82993274073"
+        },
+        {
+            "nome": "Davi Barros Da Silva",
+            "cpf": "12345678905",
+            "telefone": "82993274075"
+        }
+    ],
+    "medicos": [
+        {
+            "nome": "Davi Matheus Costa Barros",
+            "cpf": "12345678902",
+            "telefone": "82993274071",
+            "especialidade": "Cardiologista",
+            "crm": "12345-AL"
+        },
+        {
+            "nome": "Marcelly Maria França De Vasconcelos Barros",
+            "cpf": "12345678904",
+            "telefone": "82993274074",
+            "especialidade": "Neurologista",
+            "crm": "180624-AL"
+        },
+        {
+            "nome": "Dayse Cristina Costa Barros",
+            "cpf": "12345678906",
+            "telefone": "82993274076",
+            "especialidade": "Pediatra",
+            "crm": "123456-AL"
+        }
+    ],
+    "consultas": [
+        {
+            "id": 8591,
+            "paciente": "12345678901",
+            "medico": "180624-AL",
+            "data": "17/11/2025",
+            "hora": "18:00",
+            "exame": "Ressonância Magnética do Crânio",
+            "status": false
+        },
+        {
+            "id": 3219,
+            "paciente": "12345678905",
+            "medico": "123456-AL",
+            "data": "25/07/2025",
+            "hora": "20:00",
+            "exame": "Hemograma Completo",
+            "status": "✅"
+        }
+    ]
+} 
